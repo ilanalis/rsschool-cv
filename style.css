@@ -48,7 +48,52 @@ body{
 .header-header{
     font-weight: 700;
 }
+    
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+}
 
+.block{
+    padding: 10px 0;
+    border-bottom: 2px  solid ;
+    border-image: linear-gradient(to right,rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5), rgba(238, 130, 238, 0.5)) 1;
+    
+    letter-spacing: 0.05rem;
+}
+.block-header{
+    margin-bottom: 15px;
+}
+
+.list{
+    padding-left: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-item{
+    margin-bottom: 8px;
+    width: 40%;
+}
+
+.contacts-block{
+    padding: 10px 0;
+
+    background-color: rgba(247, 234, 246, 0.952);
+}
+.contacts-header{
+    margin-bottom: 10px;
+
+    font-size: 1rem;
+}
+.contacts-list-item{
+    font-size: 0.8rem;
+}
+
+.lang-list{
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
 
 .footer-block{
     flex: 0 0 auto;
